@@ -1,4 +1,4 @@
-.btn {
+.bbtn {
   display: flex;
   justify-content: space-around;
 }
@@ -8,6 +8,15 @@ button {
   margin: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: #cbe4de;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #85aea4;
+  transition: 0.7s;
+}
+button:focus {
+  background-color: #85aea4;
+  border: 2px solid #639185;
 }
 .summary {
   width: 100%;
