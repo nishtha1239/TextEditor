@@ -7,9 +7,14 @@ button {
   border-radius: 10px;
   margin: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-color: #cbe4de;
+  background-color: white;
   cursor: pointer;
 }
+
+button.dark {
+  background-color: #cbe4de;
+}
+
 button:hover {
   background-color: #85aea4;
   transition: 0.7s;

@@ -74,25 +74,60 @@ export default function Textform(props) {
           ></textarea>
         </div>
         <div className="bbtn">
-          <button className="btn-primary mx-2" onClick={handleUpClick}>
+          <button
+            className={`btn-primary mx-2${
+              props.mode === "dark" ? " dark" : ""
+            }`}
+            onClick={handleUpClick}
+          >
             Convert To UpperCase
           </button>
-          <button className="btn-primary mx-2" onClick={handleLowClick}>
+          <button
+            className={`btn-primary mx-2${
+              props.mode === "dark" ? " dark" : ""
+            }`}
+            onClick={handleLowClick}
+          >
             Convert To LowerCase
           </button>
-          <button className="btn-primary mx-2" onClick={handleEmail}>
+          <button
+            className={`btn-primary mx-2${
+              props.mode === "dark" ? " dark" : ""
+            }`}
+            onClick={handleEmail}
+          >
             Extract Email
           </button>
-          <button className="btn-primary mx-2" onClick={handleClear}>
+          <button
+            className={`btn-primary mx-2${
+              props.mode === "dark" ? " dark" : ""
+            }`}
+            onClick={handleClear}
+          >
             Clear Text
           </button>
-          <button className="btn-primary mx-2" onClick={handleExtraSpace}>
+          <button
+            className={`btn-primary mx-2${
+              props.mode === "dark" ? " dark" : ""
+            }`}
+            onClick={handleExtraSpace}
+          >
             Remove ExtraSpaces
           </button>
-          <button className="btn-primary mx-2" onClick={handleBold}>
+          <button
+            className={`btn-primary mx-2${
+              props.mode === "dark" ? " dark" : ""
+            }`}
+            onClick={handleBold}
+          >
             Make Bold
           </button>
-          <button className="btn-primary mx-2" onClick={copy}>
+          <button
+            className={`btn-primary mx-2${
+              props.mode === "dark" ? " dark" : ""
+            }`}
+            onClick={copy}
+          >
             Copy Text
           </button>
         </div>
